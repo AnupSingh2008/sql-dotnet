@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.30323.103
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosGettingStarted", "CosmosGettingStartedTutorial\CosmosGettingStarted.csproj", "{C49C6E3C-12D2-45AC-847C-81A493D0192C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ARM", "ARM", "{49D06648-671C-4C77-9C3B-EC48FB14CDBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cosmo-ARM-Template", "Cosmo-ARM-Template", "{376885FF-D7BA-46C7-9E84-0EC137B25957}"
+	ProjectSection(SolutionItems) = preProject
+		ARM\Cosmo-ARM-Template\deploy.json = ARM\Cosmo-ARM-Template\deploy.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{376885FF-D7BA-46C7-9E84-0EC137B25957} = {49D06648-671C-4C77-9C3B-EC48FB14CDBF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C82C47F9-3D43-4080-8325-232C3B6FEA70}
